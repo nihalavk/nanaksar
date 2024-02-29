@@ -1,0 +1,365 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(#FFFF,#e4e9f5);
+}
+.nav-banner{
+    height: 115px;
+    width: 100%;
+}
+.nav{
+    height: 59px;
+    background-color: rgba(41, 68, 132, 1);
+    width: 100%;
+}
+.nav-foot{
+    background-color: #BFC9DE;
+    height: 58.83px;
+    width: 100%;
+}
+.nav-items ul{
+    display: flex;
+    list-style-type: none;
+    width: fit-content;
+    margin: auto;
+}
+.nav-items li{
+    font-size: 16px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-family: poppins;
+}
+.nav-banner{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.img1{
+    margin-top: 6px;
+    height: 113.12px;
+    width: 122;
+}
+.logo{
+    margin: 30px 100px;
+    height: 73.32px;
+    width: 355px;
+}
+.img2{
+    margin-top: 6px;
+    width: 143px;
+    height: 113.12px;
+}
+.nav-foot{
+    display: flex;
+}
+.live{
+    width: 50px;
+    height:37px;
+    margin-left: 39px;
+    padding: 15px;
+    color: #2E447E;
+    font-size: 24px;
+    font-family: poppins;
+    font-weight: bold;
+}
+.texts{
+    width: 764px;
+    height: 28.28px;
+    padding: 15px;
+    font-size: 18px;
+    font-family: poppins;
+    color: #2E447E;
+}
+.entry-body{
+    display: flex;
+    padding-top: 100px;
+}
+.text-image{
+    width: 485px;
+    height: 177px;
+    padding: 50px;
+}
+
+.image-text{
+    width: 397px;
+    height: 48px;
+    font-size: 16px;
+    font-family: poppins;
+    color: #2E447E;
+}
+.contact-button{
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: 16px;
+    font-family: poppins;
+    text-align: center;
+    border-radius: 18px;
+    background-color: #2E447E;
+    color: #FFFFFF;
+}
+.entry-image{
+    height: 382px;
+    width: 478px;
+}
+.body-section{
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    padding: 15px;
+    margin: 0px 100px;
+    border-image: url(assets/border.png) 30 round;
+}
+.about-body{
+    padding: 50px;
+}
+.about-head{
+    width: 100%;
+    color: #2E447E;
+    font-family: poppins;
+    font-size: 28px;
+}
+.about-content{
+    display: flex;
+    margin-top: 20px;
+}
+.about-image{
+    width: 100%;
+}
+.about-text{
+    padding: 20px;
+    width: 100%;
+    color: #2E447E;
+    font-size: 16px;
+    font-family: poppins;
+}
+.timing-body{
+    padding: 50px;
+}
+.timing-head{
+    width: 100%;
+    color: #2E447E;
+    font-family: poppins;
+    font-size: 28px;
+}
+.keerthan{
+    margin-bottom: 20px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #2E447E;
+    border-radius: 6px;
+}
+.keertan-time{
+    font-size: 20px;
+    font-family: poppins;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.sessions{
+    background-color: #DAE3FF;
+    font-size: 16px;
+    font-family: poppins;
+    display: flex;
+    width: 100%;
+}
+.sessions2{
+    font-size: 16px;
+    font-family: poppins;
+    background-color: #ECF1FF;
+    display: flex;
+    width: 100%;
+}
+.day{
+    width: 30%;
+    padding: 30px;
+}
+.day-time{
+    width: 30%;
+    padding: 30px;
+}
+.day-program{
+    width: 40%;
+    padding: 30px;
+}
+.calender-body{
+    padding: 50px;
+}
+.calender-head{
+    width: 100%;
+    color: #2E447E;
+    font-family: poppins;
+    font-size: 28px;
+}
+.calender-follow{
+    width: fit-content;
+    margin: auto;
+    padding-top: 70px;
+    font-size: 24px;
+    font-family: mixed;
+    color: #2E447E;
+}
+.calender-channel{
+    width: fit-content;
+    margin: auto;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #2E447E;
+    font-size: 24px;
+}
+.calender-images{
+    display: flex;
+    padding-top: 20px;
+}
+.calender-img{
+    width: 100%;
+    margin: 30px;
+}
+.live-body{
+    padding: 50px;
+    display: flex;
+}
+.live-head{
+    width: 60%;
+}
+.live-heading{
+    width: 100%;
+    color: #2E447E;
+    font-family: poppins;
+    font-size: 28px;
+}
+.live-texts{
+    padding-top: 20px;
+    color: #2E447E;
+    font-size: 16px;
+    font-family: poppins;
+}
+.live-images{
+    width: 40%;
+}
+.live-image1{
+    margin-left: 125px;
+}
+.live-image2{
+    display: flex;
+}
+.service-body{
+    padding: 50px;
+    padding-top: 30px;
+    display: flex;
+}
+.service-paystrip{
+    width: 40%;
+}
+.service-head{
+    width: 60%;
+}
+.service-heading{
+    width: 100%;
+    color: #2E447E;
+    font-family: poppins;
+    font-size: 28px;
+}
+.service-text{
+    padding-top: 20px;
+    color: #2E447E;
+    font-size: 16px;
+    font-family: poppins;
+}
+.service-button{
+    padding: 10px 30px;
+    width: fit-content;
+    font-size: 16px;
+    font-family: poppins;
+    text-align: center;
+    border-radius: 18px;
+    background-color: #2E447E;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+.service-paystrip{
+    width: 100%;
+    border-radius: 18px;
+}
+/* .pay-head{
+    height: 60px;
+    background-color: #2E447E;
+    color: #FFFFFF;
+}
+.pay-time{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    border: #2E447E;
+    color: #2E447E;
+}
+.select{
+    color: #DAE3FF;
+}
+.amount{
+    display: flex;
+}
+.amt1{
+    border: #DAE3FF;
+    margin: 20px;
+}
+.custom{
+    border: #DAE3FF;
+    width: fit-content;
+    margin: auto;
+} */
+.questions{
+    padding: 50px;
+}
+.question-heading{
+    padding: 20px;
+    width: 100%;
+    color: #2E447E;
+    font-family: poppins;
+    font-size: 28px;
+}
+.quest-1{
+    margin: 30px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgba(253, 253, 253, 1);
+    color: #2E447E;
+    font: 14px;
+    font-family: poppins;
+    box-shadow: #BFC9DE;
+}
+.footer{
+    background-color: #2E447E;
+}
+.foot-head{
+    display: flex;
+    padding: 50px;
+}
+.foot1{
+    width: 25%;
+}
+.foot3{
+    margin-left: 125px;
+    margin-top: -25px;
+    width: 50%;
+    display: flex;
+}
+.foot-name{
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: montserrat;
+}
+.sabha-name{
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: montserrat;
+    text-align: center;
+}
+.foot-foot{
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+}
+.foot2{
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 33.33%;
+}
