@@ -1,19 +1,18 @@
 body {
     margin: 0px;
     background-image: linear-gradient(#FFFF,#e4e9f5);
+    width:100%;
+    overflow-x: hidden;
 }
 .nav-banner{
-    height: 115px;
     width: 100%;
 }
 .nav{
-    height: 59px;
     background-color: rgba(41, 68, 132, 1);
     width: 100%;
 }
 .nav-foot{
     background-color: #BFC9DE;
-    height: 58.83px;
     width: 100%;
 }
 .nav-items ul{
@@ -30,31 +29,27 @@ body {
 }
 .nav-banner{
     display: flex;
-    width: fit-content;
     margin: auto;
+}
+img {
+    width: -webkit-fill-available;
 }
 .img1{
     margin-top: 6px;
-    height: 113.12px;
-    width: 122;
+    width: 20%;
 }
 .logo{
-    margin: 30px 100px;
-    height: 73.32px;
-    width: 355px;
+    width: 60%;
 }
 .img2{
     margin-top: 6px;
-    width: 143px;
-    height: 113.12px;
+    width: 20%;
 }
 .nav-foot{
     display: flex;
 }
 .live{
     width: 50px;
-    height:37px;
-    margin-left: 39px;
     padding: 15px;
     color: #2E447E;
     font-size: 24px;
@@ -63,24 +58,21 @@ body {
 }
 .texts{
     width: 764px;
-    height: 28.28px;
     padding: 15px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: poppins;
     color: #2E447E;
 }
 .entry-body{
-    display: flex;
+    display: block;
     padding-top: 100px;
 }
 .text-image{
-    width: 485px;
     height: 177px;
     padding: 50px;
 }
 
 .image-text{
-    width: 397px;
     height: 48px;
     font-size: 16px;
     font-family: poppins;
@@ -98,14 +90,9 @@ body {
 }
 .entry-image{
     height: 382px;
-    width: 478px;
 }
 .body-section{
-    border-left: 35px solid transparent;
-    border-right: 35px solid transparent;
     padding: 15px;
-    margin: 0px 100px;
-    border-image: url(assets/border.png) 30 round;
 }
 .about-body{
     padding: 50px;
@@ -117,7 +104,7 @@ body {
     font-size: 28px;
 }
 .about-content{
-    display: flex;
+    display: block;
     margin-top: 20px;
 }
 .about-image{
@@ -130,9 +117,9 @@ body {
     font-size: 16px;
     font-family: poppins;
 }
-.timing-body{
-    padding: 50px;
-}
+/* .timing-body{
+    padding: 50px; 
+} */
 .timing-head{
     width: 100%;
     color: #2E447E;
@@ -179,9 +166,9 @@ body {
     width: 40%;
     padding: 30px;
 }
-.calender-body{
+/* .calender-body{
     padding: 50px;
-}
+} */
 .calender-head{
     width: 100%;
     color: #2E447E;
@@ -205,17 +192,14 @@ body {
     font-size: 24px;
 }
 .calender-images{
-    display: flex;
+    /* display: flex; */
     padding-top: 20px;
 }
 .calender-img{
     width: 100%;
-    margin: 30px;
+    /* margin: 30px; */
 }
-.live-body{
-    padding: 50px;
-    display: flex;
-}
+
 .live-head{
     width: 60%;
 }
@@ -241,9 +225,7 @@ body {
     display: flex;
 }
 .service-body{
-    padding: 50px;
     padding-top: 30px;
-    display: flex;
 }
 .service-paystrip{
     width: 40%;
@@ -278,6 +260,9 @@ body {
     width: 100%;
     border-radius: 18px;
 }
+.live-img0 {
+    width:33%;
+}
 /* .pay-head{
     height: 60px;
     background-color: #2E447E;
@@ -306,10 +291,9 @@ body {
     margin: auto;
 } */
 .questions{
-    padding: 50px;
+    /* padding: 50px; */
 }
 .question-heading{
-    padding: 20px;
     width: 100%;
     color: #2E447E;
     font-family: poppins;
@@ -336,15 +320,13 @@ body {
     width: 25%;
 }
 .foot3{
-    margin-left: 125px;
-    margin-top: -25px;
     width: 50%;
     display: flex;
 }
 .foot-name{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     color: #FFFFFF;
-    font-size: 28px;
+    /* font-size: 28px; */
     font-family: montserrat;
 }
 .sabha-name{
@@ -362,4 +344,7 @@ body {
     font-size: 14px;
     color: #FFFFFF;
     width: 33.33%;
+}
+.foot-logo {
+    width: 50%;
 }

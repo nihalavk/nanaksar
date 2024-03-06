@@ -1,0 +1,39 @@
+@media screen and (min-width:600px) {
+
+    .body-section {
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        margin: 0px 100px;
+        border-image: url(assets/border.png) 30 round;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .logo {
+        margin: 30px 100px;
+
+    }
+
+    .entry-body{
+        display: flex;
+    }
+
+    .about-content{
+        display: flex;
+    }
+
+    .calender-images{
+        display: flex;
+    }
+
+    .live-body{
+        padding: 50px;
+        display: flex;
+    }
+
+    .service-body{
+        padding: 50px;
+        display: flex;
+    }
+
+}
