@@ -58,10 +58,10 @@
 @media screen and (min-width:1000px) {
 
     .body-section {
-        border-left: 35px solid transparent;
-        border-right: 35px solid transparent;
+        /* border-left: 35px solid transparent; */
+        /* border-right: 35px solid transparent; */
         margin: 0px 100px;
-        border-image: url(assets/border.png) 30 round;
+        /* border-image: url(assets/border.png) 30 round; */
     }
 
     .regular-font {
