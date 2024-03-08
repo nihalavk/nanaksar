@@ -79,25 +79,28 @@ img {
     /* padding-top: 100px; */
 }
 .text-image{
-    height: 177px;
     padding: 50px;
 }
 
-.image-text{
+.image-text {
     height: 48px;
-    font-size: 16px;
+    font-size: 12px;
     font-family: poppins;
     color: #2E447E;
+    padding-bottom: 20px;
+    text-align: center;
 }
 .contact-button{
     padding: 10px 20px;
     width: fit-content;
-    font-size: 16px;
+    font-size: 12px;
     font-family: poppins;
     text-align: center;
     border-radius: 18px;
     background-color: #2E447E;
     color: #FFFFFF;
+    margin-top: 15px;
+    margin: auto;
 }
 .entry-image{
     padding: 20px 40px;
@@ -106,13 +109,15 @@ img {
     padding: 15px;
 }
 .about-body{
-    padding: 50px;
+    padding: 40px;
 }
 .about-head{
     width: 100%;
     color: #2E447E;
     font-family: poppins;
-    font-size: 28px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
 }
 .about-content{
     display: block;
@@ -123,10 +128,10 @@ img {
 }
 .about-text{
     padding: 20px;
-    width: 100%;
     color: #2E447E;
-    font-size: 16px;
+    font-size: 12px;
     font-family: poppins;
+    text-align: center;
 }
 /* .timing-body{
     padding: 50px; 
@@ -135,64 +140,74 @@ img {
     width: 100%;
     color: #2E447E;
     font-family: poppins;
-    font-size: 28px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
 }
 .keerthan{
     margin-bottom: 20px;
-    height: 40px;
     margin-top: 25px;
     background-color: #2E447E;
     border-radius: 6px;
 }
+.day.mobile {
+    background-color: #2E447E;
+    border-radius: 6px 6px 0px 0px;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
 .keertan-time{
-    font-size: 20px;
+    font-size: 10px;
     font-family: poppins;
     text-align: center;
     color: #FFFFFF;
     padding: 10px;
 }
+.time-container {
+    font-size: 12px;
+}
 .sessions{
     background-color: #DAE3FF;
-    font-size: 16px;
     font-family: poppins;
     display: flex;
     width: 100%;
+    border-radius: 0px 0px 6px 6px;
 }
 .sessions2{
-    font-size: 16px;
     font-family: poppins;
     background-color: #ECF1FF;
     display: flex;
     width: 100%;
-}
-.day{
-    width: 30%;
-    padding: 30px;
+    border-radius: 0px 0px 6px 6px;
 }
 .day-time{
     width: 30%;
-    padding: 30px;
+    padding: 10px;
 }
 .day-program{
-    width: 40%;
-    padding: 30px;
+    width: 60%;
+    padding: 10px;
 }
 /* .calender-body{
     padding: 50px;
 } */
-.calender-head{
+.calender-head {
     width: 100%;
     color: #2E447E;
-    font-family: poppins;
-    font-size: 28px;
+    font-family: 'poppins';
+    font-size: 10px;
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 600;
 }
 .calender-follow{
     width: fit-content;
     margin: auto;
     padding-top: 70px;
-    font-size: 24px;
-    font-family: mixed;
+    font-size: 18px;
     color: #2E447E;
+    font-family:'inter';
 }
 .calender-channel{
     width: fit-content;
@@ -200,37 +215,54 @@ img {
     padding-top: 10px;
     font-weight: bold;
     color: #2E447E;
-    font-size: 24px;
+    font-size: 18px;
+    font-family:'inter';
 }
 .calender-images{
-    /* display: flex; */
-    padding-top: 20px;
+    padding: 10px 40px;
 }
 .calender-img{
     width: 100%;
+    height: 365px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    border-radius:5px;
+    margin-bottom: 35px;
     /* margin: 30px; */
 }
 
-.live-head{
-    width: 60%;
+.youtube {
+    padding-top: 300px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+/* .live-head{ */
+    /* width: 60%; */
+/* } */
+
+.live-body {
+    text-align: center;
+    padding: 40px;
 }
 .live-heading{
     width: 100%;
     color: #2E447E;
-    font-family: poppins;
-    font-size: 28px;
+    font-size: 18px;
+    font-weight: 600;;
 }
 .live-texts{
     padding-top: 20px;
     color: #2E447E;
-    font-size: 16px;
-    font-family: poppins;
+    font-size: 12px;
 }
-.live-images{
-    width: 40%;
+.live-images img{
+    width: auto;
 }
 .live-image1{
-    margin-left: 125px;
+    padding: 50px;
 }
 .live-image2{
     display: flex;
@@ -242,19 +274,20 @@ img {
     width: 40%;
 }
 .service-head{
-    width: 60%;
+    /* width: 60%; */
+    text-align:center;
+    padding: 50px;
 }
 .service-heading{
     width: 100%;
     color: #2E447E;
-    font-family: poppins;
-    font-size: 28px;
+    font-weight: 600px;
+    font-size: 18px;
 }
 .service-text{
     padding-top: 20px;
     color: #2E447E;
-    font-size: 16px;
-    font-family: poppins;
+    font-size: 12px;
 }
 .service-button{
     padding: 10px 30px;
@@ -265,6 +298,7 @@ img {
     border-radius: 18px;
     background-color: #2E447E;
     color: #FFFFFF;
+    margin: auto;
     margin-top: 60px;
 }
 .service-paystrip{
@@ -303,12 +337,14 @@ img {
 } */
 .questions{
     /* padding: 50px; */
+    text-align: center;
+    font-size: 12px;
 }
 .question-heading{
     width: 100%;
     color: #2E447E;
     font-family: poppins;
-    font-size: 28px;
+    font-weight: 600;
 }
 .quest-1{
     margin: 30px;
@@ -316,23 +352,28 @@ img {
     border-radius: 6px;
     background-color: rgba(253, 253, 253, 1);
     color: #2E447E;
-    font: 14px;
-    font-family: poppins;
     box-shadow: #BFC9DE;
 }
 .footer{
     background-color: #2E447E;
-}
-.foot-head{
-    display: flex;
+    color: white;
+    font-size: 12px;
     padding: 50px;
 }
+.footer img {
+    width: auto;
+}
+/* .foot-head{
+    display: flex;
+    padding: 50px 0px 20px 0px;
+} */
 .foot1{
     width: 25%;
 }
 .foot3{
-    width: 50%;
-    display: flex;
+    /* width: 50%; */
+    /* display: flex; */
+    text-align: center;
 }
 .foot-name{
     /* margin-top: 30px; */
@@ -347,15 +388,23 @@ img {
     text-align: center;
 }
 .foot-foot{
-    display: flex;
-    padding: 50px;
-    margin: 20px;
+    /* display: flex; */
+    /* padding: 50px; */
+    /* margin: 20px; */
+    text-align: center;
 }
 .foot2{
-    font-size: 14px;
+    font-size: 12px;
     color: #FFFFFF;
-    width: 33.33%;
+    /* width: 33.33%; */
 }
-.foot-logo {
+.hr {
+    padding: 0px 50px;
+}
+/* .foot-logo {
     width: 50%;
+} */
+
+b {
+    font-weight: 600;
 }
