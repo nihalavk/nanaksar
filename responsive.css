@@ -1,14 +1,72 @@
 @media screen and (min-width:600px) {
 
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .entry-body {
+        display: flex;
+    }
+
+    .text-image {
+        width: 50%;
+        padding: 0px;
+    }
+
+    .entry-image {
+        width: 50%;
+        padding: 0px;
+    }
+    .about-content {
+        display: flex;
+    }
+    .about-image {
+        width: 50%;
+        padding: 0px;
+    }
+    .about-text {
+        width: 50%;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .calender-images {
+        display: flex;
+    }
+
+    .calender-img {
+        width: 33%;
+    }
+    .live-body {
+        display: flex;
+    }
+    .live-head {
+        width: 50%;
+    }
+    .live-images {
+        width: 50%;
+    }
+    .body-section {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+
     .body-section {
         border-left: 35px solid transparent;
         border-right: 35px solid transparent;
         margin: 0px 100px;
         border-image: url(assets/border.png) 30 round;
     }
-}
 
-@media screen and (min-width:1000px) {
+    .regular-font {
+        font-size: 16px;
+    }
     .logo {
         margin: 30px 100px;
 
