@@ -1,11 +1,22 @@
 @media screen and (min-width:600px) {
-
+    html {
+        font-size: 14px;
+    }
     .mobile {
         display: none;
     }
 
     .desktop {
         display: block;
+    }
+
+    .nav-banner {
+        width: fit-content;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 200px;
     }
 
     .entry-body {
@@ -21,15 +32,30 @@
         width: 50%;
         padding: 0px;
     }
+    
+    .about-head,.timing-head,.live-head {
+        text-align: left;
+    }
+
+    .about-body {
+        padding: 0px 0px 40px 0px;
+    }
+
     .about-content {
         display: flex;
     }
+
     .about-image {
-        width: 50%;
+        width: 40%;
         padding: 0px;
     }
+
+    .about-image .image-container {
+        padding-right:20px;
+    }
+
     .about-text {
-        width: 50%;
+        width: 60%;
         padding: 0px;
         text-align: left;
     }
@@ -39,10 +65,13 @@
     }
 
     .calender-img {
-        width: 33%;
+        /* width: 33%; */
+        border-radius: 18px;
+        height: auto;
     }
     .live-body {
         display: flex;
+        padding: 40px 0px;
     }
     .live-head {
         width: 50%;
@@ -50,32 +79,73 @@
     .live-images {
         width: 50%;
     }
+    .live-images img {
+        width: 100px;
+    }
     .body-section {
-        padding: 50px;
+        padding: 50px 0px;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .time-container>div div {
+        padding: 30px 0px 20px 50px;
+    }
+    .calender-images>div {
+        padding:10px;
+        width: 33%;
+    }
+
+    .entry-image .image-container {
+        padding: 15px;
+    }
+
+    .calender-images {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .youtube {
+        padding: 250px 0px 15px 0px;
+    }
+    
+    .service-head {
+        text-align: left;
+    }
+
+    .foot-foot {
+        display: flex;
     }
 }
 
 @media screen and (min-width:1000px) {
 
+    html {
+        font-size: 16px;
+    }
     .body-section {
-        /* border-left: 35px solid transparent; */
-        /* border-right: 35px solid transparent; */
-        margin: 0px 100px;
-        /* border-image: url(assets/border.png) 30 round; */
+        
+        /* margin: 0px 100px; */
+        max-width: 900px;
     }
 
+    .body-container {
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-image: url(assets/border.png) 30 round;
+        margin: 0px 50px;
+        padding: 0px 40px;
+    }
     .regular-font {
         font-size: 16px;
     }
     .logo {
-        margin: 30px 100px;
-
+        /* width: 60%; */
+        padding: 20px 250px 10px;
     }
 
     .entry-body{
         display: flex;
     }
-
     .about-content{
         display: flex;
     }
@@ -85,7 +155,7 @@
     }
 
     .live-body{
-        padding: 50px;
+        /* padding: 50px; */
         display: flex;
     }
 

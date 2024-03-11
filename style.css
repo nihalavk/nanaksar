@@ -1,9 +1,12 @@
+html {
+    font-size: 12px;
+}
 body {
     margin: 0px;
     background-image: linear-gradient(#FFFF,#e4e9f5,#FFFF,#e4e9f5);
     width:100%;
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;   
 }
 .nav-banner{
     width: 100%;
@@ -11,7 +14,6 @@ body {
 .nav{
     background-color: rgba(41, 68, 132, 1);
     width: 100%;
-    display: none;
 }
 .nav-foot{
     background-color: #BFC9DE;
@@ -22,12 +24,12 @@ body {
     list-style-type: none;
     width: fit-content;
     margin: auto;
+    padding: 0;
 }
-.nav-items li{
-    font-size: 16px;
-    padding: 20px;
+.nav-items li {
+     
+    padding: 10px 20px;
     color: #FFFFFF;
-    font-family: poppins;
 }
 .nav-banner{
     display: flex;
@@ -52,8 +54,15 @@ img {
 }
 .img2, .img1{
     margin-top: 6px;
-    width: 20%;
+    /* width: 20%; */
     display: none;
+}
+.img2 img, .img1 img {
+    width:100px;
+}
+.img1 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 .nav-foot{
     display: flex;
@@ -63,13 +72,13 @@ img {
     width: 50px;
     color: #2E447E;
     padding-left: 15px;
-    font-size: 12px;
+     
     font-family: 'poppins';
     font-weight: bold;
 }
 .texts{
     width: 764px;
-    font-size: 11px;
+    font-size: 0.92rem;
     padding-left:15px;
     font-family: 'Poppins';
     color: #2E447E;
@@ -84,7 +93,7 @@ img {
 
 .image-text {
     height: 48px;
-    font-size: 12px;
+     
     font-family: poppins;
     color: #2E447E;
     padding-bottom: 20px;
@@ -93,7 +102,7 @@ img {
 .contact-button{
     padding: 10px 20px;
     width: fit-content;
-    font-size: 12px;
+     
     font-family: poppins;
     text-align: center;
     border-radius: 18px;
@@ -115,7 +124,7 @@ img {
     width: 100%;
     color: #2E447E;
     font-family: poppins;
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 600;
 }
@@ -129,7 +138,7 @@ img {
 .about-text{
     padding: 20px;
     color: #2E447E;
-    font-size: 12px;
+     
     font-family: poppins;
     text-align: center;
 }
@@ -140,7 +149,7 @@ img {
     width: 100%;
     color: #2E447E;
     font-family: poppins;
-    font-size: 18px;
+     font-size: 1.5rem;
     text-align: center;
     font-weight: 600;
 }
@@ -158,14 +167,15 @@ img {
     padding: 2px;
 }
 .keertan-time{
-    font-size: 10px;
+     font-size: 0.83rem;
     font-family: poppins;
     text-align: center;
     color: #FFFFFF;
     padding: 10px;
 }
 .time-container {
-    font-size: 12px;
+     
+    color: #2E447E;
 }
 .sessions{
     background-color: #DAE3FF;
@@ -196,7 +206,7 @@ img {
     width: 100%;
     color: #2E447E;
     font-family: 'poppins';
-    font-size: 10px;
+     font-size: 0.83rem;
     text-align: center;
     margin-top: 16px;
     font-weight: 600;
@@ -205,7 +215,7 @@ img {
     width: fit-content;
     margin: auto;
     padding-top: 70px;
-    font-size: 18px;
+     font-size: 1.5rem;
     color: #2E447E;
     font-family:'inter';
 }
@@ -215,7 +225,7 @@ img {
     padding-top: 10px;
     font-weight: bold;
     color: #2E447E;
-    font-size: 18px;
+     font-size: 1.5rem;
     font-family:'inter';
 }
 .calender-images{
@@ -236,7 +246,7 @@ img {
     padding-top: 300px;
     text-align: center;
     color: white;
-    font-size: 12px;
+     
 }
 
 /* .live-head{ */
@@ -250,13 +260,13 @@ img {
 .live-heading{
     width: 100%;
     color: #2E447E;
-    font-size: 18px;
+     font-size: 1.5rem;
     font-weight: 600;;
 }
 .live-texts{
     padding-top: 20px;
     color: #2E447E;
-    font-size: 12px;
+     
 }
 .live-images img{
     width: auto;
@@ -282,12 +292,12 @@ img {
     width: 100%;
     color: #2E447E;
     font-weight: 600px;
-    font-size: 18px;
+     font-size: 1.5rem;
 }
 .service-text{
     padding-top: 20px;
     color: #2E447E;
-    font-size: 12px;
+     
 }
 .service-button{
     padding: 10px 30px;
@@ -338,7 +348,7 @@ img {
 .questions{
     /* padding: 50px; */
     text-align: center;
-    font-size: 12px;
+     
 }
 .question-heading{
     width: 100%;
@@ -357,7 +367,7 @@ img {
 .footer{
     background-color: #2E447E;
     color: white;
-    font-size: 12px;
+     
     padding: 50px;
 }
 .footer img {
@@ -383,7 +393,7 @@ img {
 }
 .sabha-name{
     color: #FFFFFF;
-    font-size: 10px;
+     font-size: 0.83rem;
     font-family: montserrat;
     text-align: center;
 }
@@ -394,7 +404,7 @@ img {
     text-align: center;
 }
 .foot2{
-    font-size: 12px;
+     
     color: #FFFFFF;
     /* width: 33.33%; */
 }
