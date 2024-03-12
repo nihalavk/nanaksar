@@ -402,10 +402,12 @@ img {
     /* padding: 50px; */
     /* margin: 20px; */
     text-align: center;
+    line-height: 30px;
 }
 .foot2{
      
     color: #FFFFFF;
+    padding: 20px;
     /* width: 33.33%; */
 }
 .hr {

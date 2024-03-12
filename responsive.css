@@ -14,7 +14,9 @@
         width: fit-content;
         align-items: center;
     }
-
+    .logo {
+        padding: 20px 20vw 10px;
+    }
     .logo img {
         width: 200px;
     }
@@ -111,9 +113,35 @@
     .service-head {
         text-align: left;
     }
+    
+    .questions {
+        text-align: left;
+    }
+
+    .question-heading {
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+
+    .quest-1 {
+        box-shadow: 0px 2px 4px #404040;
+        margin: 30px 0px;
+    }
 
     .foot-foot {
         display: flex;
+        padding: 80px;
+        text-align: left;
+        line-height: 30px;
+    }
+
+    .foot-logo img {
+        width: 300px;
+    }
+
+    .foot-foot .foot2 {
+        width: 33%;
+        padding: 20px;
     }
 }
 
@@ -140,7 +168,7 @@
     }
     .logo {
         /* width: 60%; */
-        padding: 20px 250px 10px;
+        padding: 20px 30vw 10px;
     }
 
     .entry-body{
