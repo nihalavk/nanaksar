@@ -420,3 +420,7 @@ img {
 b {
     font-weight: 600;
 }
+
+.big-screen {
+    display: none;
+}

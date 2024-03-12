@@ -153,7 +153,12 @@
     .body-section {
         
         /* margin: 0px 100px; */
-        max-width: 900px;
+        /* max-width: 900px; */
+        max-width: max-content;
+    }
+    
+    .big-screen {
+        display: block;
     }
 
     .body-container {
@@ -161,7 +166,7 @@
         border-right: 35px solid transparent;
         border-image: url(assets/border.png) 30 round;
         margin: 0px 50px;
-        padding: 0px 40px;
+        padding: 0px 80px;
     }
     .regular-font {
         font-size: 16px;
@@ -190,6 +195,16 @@
     .service-body{
         padding: 50px;
         display: flex;
+    }
+
+    .foot-head {
+        display: flex;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .foot-head .foot3 {
+        width: 50%;
     }
 
 }
