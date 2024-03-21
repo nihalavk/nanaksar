@@ -1,6 +1,6 @@
 @media screen and (min-width:600px) {
     html {
-        font-size: 14px;
+        font-size: 16px;
     }
     .mobile {
         display: none;
@@ -143,6 +143,10 @@
         width: 33%;
         padding: 20px;
     }
+
+    .keertan-time {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width:1000px) {
@@ -207,4 +211,16 @@
         width: 50%;
     }
 
+    .calender-head {
+        text-align: left;
+        font-size: 1.5rem;
+        padding: 20px 0px 0px 0px;
+    }
+
+}
+
+@media screen and (min-width:1300px) {
+    .about-text {
+        padding: 0px 50px;
+    }
 }

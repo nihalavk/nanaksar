@@ -424,3 +424,15 @@ b {
 .big-screen {
     display: none;
 }
+
+#sevaframe {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    margin-top: -300px;
+    border: none;
+}
+
+.service-paystrip {
+    height: 503px;
+    overflow-y: hidden;
+}
