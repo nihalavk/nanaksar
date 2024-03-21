@@ -175,10 +175,6 @@
     .regular-font {
         font-size: 16px;
     }
-    .logo {
-        /* width: 60%; */
-        padding: 20px 30vw 10px;
-    }
 
     .entry-body{
         display: flex;
@@ -215,6 +211,15 @@
         text-align: left;
         font-size: 1.5rem;
         padding: 20px 0px 0px 0px;
+    }
+
+    .down_arrow {
+        width: 18px;
+        float: right;
+        margin-top: 10px;
+    }
+    .logo img {
+        width: 350px;
     }
 
 }

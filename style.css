@@ -42,6 +42,9 @@ img {
     /* width: 60%; */
     padding: 20px 40px 10px;
 }
+.logo img {
+    width: 150px;
+}
 .hamburger {
     position: fixed;
     right: 44px;
@@ -436,3 +439,34 @@ b {
     height: 503px;
     overflow-y: hidden;
 }
+
+.question_container {
+    display: flex;
+}
+.question{
+    width: 90%;
+}
+.question_expand{
+    width: 10%;
+}
+.down_arrow {
+    width: 14px;
+    float: right;
+    margin-top: 5px;
+}
+
+.down_arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.answer_container {
+    border-top: 1px solid #C9CACC;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: none;
+}
+
+.answer_container.visible {
+    display: block;
+}
+

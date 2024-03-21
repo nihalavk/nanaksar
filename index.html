@@ -202,9 +202,45 @@
             <div class="questions">
                 <div class="question-heading">Frequently Asked Questions</div>
                 <div class="ques-head">
-                    <div class="quest-1">What are the Gurudwara's opening hours</div>
-                    <div class="quest-1">Can you book a private program at Gurdwara?</div>
-                    <div class="quest-1">When can we listen to kirtan at Gurdwara?</div>
+                    <div class="quest-1">
+                        <div class="question_container">
+                            <div class="question">
+                                What are the Gurudwara's opening hours
+                            </div>
+                            <div class="question_expand">
+                                <img class="down_arrow" src="assets/down_arrow.svg" alt="My Happy SVG"/>
+                            </div>
+                        </div>
+                        <div class="answer_container">
+                            Gurudwara's opening hours are from 2 am to 10 pm
+                        </div>
+                    </div>
+                    <div class="quest-1">
+                        <div class="question_container">
+                            <div class="question">
+                                Can you book a private program at Gurdwara?
+                            </div>
+                            <div class="question_expand">
+                                <img class="down_arrow" src="assets/down_arrow.svg" alt="My Happy SVG"/>
+                            </div>
+                        </div>
+                        <div class="answer_container">
+                            Yes, you can call us on phone number mentioned below
+                        </div>
+                    </div>
+                    <div class="quest-1">
+                        <div class="question_container">
+                            <div class="question">
+                                When can we listen to kirtan at Gurdwara?
+                            </div>
+                            <div class="question_expand">
+                                <img class="down_arrow" src="assets/down_arrow.svg" alt="My Happy SVG"/>
+                            </div>
+                        </div>
+                        <div class="answer_container">
+                            Kirtan starts from 3:30 am till 6 am in the morning and from 5:30 pm till 8:30 pm in the evening.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -249,6 +285,11 @@
         console.log($('#sevaframe').contents());
         $(elem).contents().find('.page-header').hide();
     }
+
+    $('.quest-1').on('click', function(){
+        $(this).find('.answer_container').toggleClass('visible');
+        $(this).find('.down_arrow').toggleClass('rotate');
+    });
 </script>
 </html>
 
