@@ -168,7 +168,7 @@
     .body-container {
         border-left: 35px solid transparent;
         border-right: 35px solid transparent;
-        border-image: url(assets/border.png) 30 round;
+        border-image: url(assets/MOLDING.png) 100 round;
         margin: 0px 50px;
         padding: 0px 80px;
     }
