@@ -1,6 +1,6 @@
 @media screen and (min-width:600px) {
     html {
-        font-size: 16px;
+        font-size: 14px;
     }
     .mobile {
         display: none;
@@ -23,6 +23,7 @@
 
     .entry-body {
         display: flex;
+        padding: 40px 0px 150px 0px;
     }
 
     .text-image {
@@ -40,11 +41,12 @@
     }
 
     .about-body {
-        padding: 0px 0px 40px 0px;
+        padding: 0px 0px 150px 0px;
     }
 
     .about-content {
         display: flex;
+        margin-top: 40px;
     }
 
     .about-image {
@@ -52,18 +54,24 @@
         padding: 0px;
     }
 
-    .about-image .image-container {
+    /* .about-image .image-container {
         padding-right:20px;
-    }
+    } */
 
     .about-text {
         width: 60%;
         padding: 0px;
         text-align: left;
+        padding: 0px 50px;
     }
 
     .calender-images {
         display: flex;
+    }
+
+    .calender-head {
+
+        padding: 50px 0px 0px 0px;
     }
 
     .calender-img {
@@ -73,7 +81,7 @@
     }
     .live-body {
         display: flex;
-        padding: 40px 0px;
+        padding: 200px 0px;
     }
     .live-head {
         width: 50%;
@@ -82,7 +90,7 @@
         width: 50%;
     }
     .live-images img {
-        width: 100px;
+        width: auto;
     }
     .body-section {
         padding: 50px 0px;
@@ -99,7 +107,19 @@
     }
 
     .entry-image .image-container {
-        padding: 15px;
+        padding: 50px;
+    }
+
+    .image-text {
+        text-align: left;
+    }
+    
+    .contact-button {
+        margin: 0px;
+    }
+
+    .calender-follow {
+        padding: 200px 0px 0px 0px;
     }
 
     .calender-images {
@@ -116,6 +136,7 @@
     
     .questions {
         text-align: left;
+        padding: 120px 0px 100px 0px;
     }
 
     .question-heading {
@@ -210,7 +231,7 @@
     .calender-head {
         text-align: left;
         font-size: 1.5rem;
-        padding: 20px 0px 0px 0px;
+        padding: 50px 0px 0px 0px;
     }
 
     .down_arrow {

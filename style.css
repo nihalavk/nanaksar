@@ -80,7 +80,7 @@ img {
     font-weight: bold;
 }
 .texts{
-    width: 764px;
+    width: 100%;
     font-size: 0.92rem;
     padding-left:15px;
     font-family: 'Poppins';
@@ -468,5 +468,9 @@ b {
 
 .answer_container.visible {
     display: block;
+}
+
+.foot-logo img {
+    width: 60%;
 }
 
