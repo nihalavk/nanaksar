@@ -436,7 +436,7 @@ b {
 }
 
 .service-paystrip {
-    height: 503px;
+    /* height: 503px; */
     overflow-y: hidden;
 }
 

@@ -243,6 +243,21 @@
         width: 350px;
     }
 
+    .youtube {
+        padding: 330px 0px 12px 0px;
+    }
+
+    .calender-img {
+        /* width: 33%; */
+        border-radius: 72px;
+        height: auto;
+    }
+
+    .calender-images>div {
+        padding: 25px;
+        width: 33%;
+    }
+
 }
 
 @media screen and (min-width:1300px) {
