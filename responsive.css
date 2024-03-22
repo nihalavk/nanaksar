@@ -168,6 +168,16 @@
     .keertan-time {
         font-size: 1.2rem;
     }
+
+    .foot2.first {
+        text-align: left;
+    }
+    .foot2.second {
+        text-align: center;
+    }
+    .foot2.third{
+        text-align: right;
+    }
 }
 
 @media screen and (min-width:1000px) {
@@ -222,10 +232,18 @@
         display: flex;
         padding-top: 20px;
         align-items: center;
+        margin: auto;
+        width: fit-content;
     }
 
     .foot-head .foot3 {
-        width: 50%;
+        width: auto;
+        padding: 0px 30px;
+    }
+
+    .foot-head .foot1 {
+        width: auto;
+        padding: 0px 30px;
     }
 
     .calender-head {
