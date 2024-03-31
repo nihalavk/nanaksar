@@ -47,6 +47,7 @@
     .about-content {
         display: flex;
         margin-top: 40px;
+        align-items: center;
     }
 
     .about-image {
@@ -81,6 +82,7 @@
     }
     .live-body {
         display: flex;
+        align-items: center;
         padding: 200px 0px;
     }
     .live-head {
@@ -132,6 +134,8 @@
     
     .service-head {
         text-align: left;
+        padding: 0px 50px;
+        height: fit-content;
     }
     
     .questions {
@@ -145,7 +149,7 @@
     }
 
     .quest-1 {
-        box-shadow: 0px 2px 4px #404040;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
         margin: 30px 0px;
     }
 
@@ -177,6 +181,9 @@
     }
     .foot2.third{
         text-align: right;
+    }
+    .social svg {
+        padding: 0px 0px 0px 30px;
     }
 }
 
@@ -226,6 +233,7 @@
     .service-body{
         padding: 50px;
         display: flex;
+        align-items: center;
     }
 
     .foot-head {
@@ -274,6 +282,20 @@
     .calender-images>div {
         padding: 25px;
         width: 33%;
+    }
+
+    .swiper-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .swiper-button-prev-unique, .swiper-button-next-unique {
+        cursor: pointer;
+        width: 30%;
+    }
+
+    .swiper-button-next-unique svg {
+        float: right;
     }
 
 }

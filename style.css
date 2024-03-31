@@ -478,4 +478,11 @@ b {
 .foot-logo img {
     width: 60%;
 }
+.nav-items li {
+    cursor: pointer;
+}
+
+.social svg {
+    padding: 0px 10px 0px 10px;
+}
 
