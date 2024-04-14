@@ -75,7 +75,7 @@
                             <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide"><img src="assets/enrty gurdwara 2.png" ></div>
-                            <div class="swiper-slide"><img src="andar_gurudwara_mob.png" ></div>
+                            <div class="swiper-slide"><img src="assets/andar_gurudwara_mob.png" ></div>
                             <div class="swiper-slide"><img src="assets/image 7.png" ></div>
 
                             </div>
@@ -198,7 +198,7 @@
             </div>
             <div class="service-body" id="seva">
                 <div class="service-paystrip">
-                    <div class="seva_ss"><img src="assets/seva_ss.png" ></div>
+                    <div class="seva_ss"><img src="assets/doseva.jpeg" ></div>
                     <!-- <iframe id='sevaframe' src="https://donorbox.org/stepping-out-in-faith" title="seva-link" onload="removeNavFromIframe(this)"></iframe> -->
                     <!-- <div class="pay-strip">
                         <div class="pay-head">Choose Amount 
@@ -290,15 +290,17 @@
         <div class="foot-foot">
             <div class="foot2 first">
                     <b>Nashatar Singh</b> <br/>
-                    +1 7785-931335<br/>
-                    14210/14212 88 Ave, Surrey, BC V3W 3L7, Canada
+                    <svg fill="#ffffff" width="20px" height="20px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9062 C 41.0546 51.9062 51.9063 41.0547 51.9063 28.0000 C 51.9063 14.9219 41.0312 4.0938 27.9765 4.0938 C 14.8983 4.0938 4.0937 14.9219 4.0937 28.0000 C 4.0937 41.0547 14.9218 51.9062 27.9999 51.9062 Z M 21.8827 33.8360 C 16.0702 28.0469 12.3671 20.6640 16.7499 16.2813 C 17.0077 16.0234 17.2890 15.7656 17.5468 15.5078 C 18.8827 14.2422 20.1718 14.3125 21.3202 15.9297 L 24.3671 20.2656 C 25.3983 21.7656 25.1405 22.6094 24.0390 23.7813 L 23.0780 24.8360 C 22.7265 25.1640 22.8671 25.6094 23.0312 25.8906 C 23.4765 26.7344 24.7421 28.2344 26.1014 29.5938 C 27.5077 31.0000 28.9374 32.1953 29.8280 32.6875 C 30.1562 32.875 30.6249 32.9219 30.9296 32.6406 L 31.9374 31.6797 C 33.0624 30.5781 33.9765 30.2969 35.4296 31.3281 C 37.4452 32.7578 38.6640 33.6016 39.8593 34.4219 C 41.3358 35.5000 41.6874 36.8360 40.1874 38.1953 C 39.9296 38.4531 39.6952 38.7344 39.4374 38.9922 C 35.0546 43.3516 27.6952 39.6484 21.8827 33.8360 Z"></path></g></svg>
+                    &nbsp;&nbsp;+1 7785-931335<br/>
+                    <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve" fill="#2E447E" stroke="#2E447E"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-51.2" y="-51.2" width="614.40" height="614.40" rx="307.2" fill="#ffffff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css">  .st0{fill:#2E447E;}  </style> <g> <path class="st0" d="M256,0C159.969,0,82.125,77.859,82.125,173.906C82.125,269.938,236.797,512,256,512 c19.219,0,173.875-242.063,173.875-338.094C429.875,77.859,352.031,0,256,0z M256,240.406c-36.719,0-66.5-29.781-66.5-66.5 c0-36.75,29.781-66.531,66.5-66.531s66.516,29.781,66.516,66.531C322.516,210.625,292.719,240.406,256,240.406z"></path> </g> </g></svg>
+                    &nbsp;&nbsp;14210/14212 88 Ave, Surrey, BC V3W 3L7, Canada
                     <br/>
-                    <a href="#">Get Directions</a><br/>
+                    <a href="https://www.google.com/maps/place/49.1635611301923,-122.8204756548901">Get Directions</a><br/>
             </div>
             <div class="foot2 second">
                 About Us<br/>
-                Calender<br/>
-                Do Seva<br/>
+                <span onclick="goTo('calender')">Calender</span><br/>
+                <span onclick="goTo('seva')">Do Seva</span><br/>
             </div>
             <div class="foot2 third">
                 <div class="hr mobile"><hr/></div>
@@ -334,6 +336,10 @@
     });
     $(document).ready(function(){
         const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 5000,
+            },
+            loop: true,
             speed: 400,
             spaceBetween: 100,
             navigation: {

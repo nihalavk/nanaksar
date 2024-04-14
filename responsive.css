@@ -298,6 +298,13 @@
         float: right;
     }
 
+    .swiper-slide img {
+        width: 100%;
+        display: block;
+        height: 30vw;
+        border-radius: 20px;
+    }
+
 }
 
 @media screen and (min-width:1300px) {
